@@ -12,11 +12,10 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
 
-| Column 1 | Column 2 | Column 3| Column 4 |
-|:---------- | :----------:|:----------|
-| Column 1 | Column 2 | Column 3| Column 4 |
-| Column 1 | Column 2 | Column 3| Column 4 |
-
+| Primer encabezado | Segundo encabezado |
+| ------------- | ------------- |
+| Contenido de la celda  | Contenido de la celda  |
+| Contenido de la celda  | Contenido de la celda  |
 ## Summary:
 
 There is a summary of the results (2 pt)
