@@ -58,4 +58,7 @@ Finally lets go over the last two models, the **Ensemble Learners**.
 - They both show an accuracy above *0.99*, which is way better than the resampling models, but the main difference between the ensemble models is in the precision and the recall. 
 - The precision is better in the Random Forest than in the Easy Ensemble but in the recall outputs the Easy Ensemble is better (take a glance at the table). This is telling us the following: The Easy Ensemble tells us that of those high risk detected, *36%* of them will be judged correctly. Random Forest, means that if it is a high risk detected, there's a *95%* of chances that the output is high risk.
 
-The recommendation for which model to use in this case is a Random Forest, because of its higher precision obove the other models and the best F1 results  0.52 high risk and 1.0 low risk.
+The recommendation for which model to use in this case is a Random Forest, because of its higher precision obove the other models and the best F1 results  0.52 high risk and 1.0 low risk. Take a look at the *Imbalanced Classification Report*:
+
+<img width="438" alt="RandomForest" src="https://user-images.githubusercontent.com/84519822/166744018-72a0572f-9d4c-420d-916b-c8a8dc6d96fc.png">
+
