@@ -2,20 +2,30 @@
 
 ## Overview of the loan prediction risk analysis:
 
-ill commends you for all your hard work. Piece by piece, you’ve been building up your skills in data preparation, statistical reasoning, and machine learning. You are now ready to apply machine learning to solve a real-world challenge: credit card risk.
+For this challenge I was required to employ different techniques to train and evaluate models with unbalanced classes. You will see the imbalanced-learn and scikit-learn libraries to build and evaluate those models using resample. The evaluation will be about **credit risk**, where it is an unbalanced classification problem, due that good loans outnumber risky loans. 
 
-Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, you’ll need to employ different techniques to train and evaluate models with unbalanced classes. Jill asks you to use imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling.
 
-Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, you’ll oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, you’ll use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Next, you’ll compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. Once you’re done, you’ll evaluate the performance of these models and make a written recommendation on whether they should be used to predict credit risk.
+I will start by oversampling the data with the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, I’ll use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. I will also compare two machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. At the end, I’ll evaluate the performance of these models and make a conclusion on whether they should be used to predict credit risk.
 
 ## Results:
 
-There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
+To provide a better overview of the models' results I'm providing a table where you can observe results for each Machine Learning model of: 
 
-| Primer encabezado | Segundo encabezado |
-| ------------- | ------------- |
-| Contenido de la celda  | Contenido de la celda  |
-| Contenido de la celda  | Contenido de la celda  |
+- Balance Accuracy Score 
+- Precision
+- Recall
+
+
+| ML Model | Balance Accuracy Score | Precision | Recall |
+| ------------- | ------------- | ------------- | ------------- |
+| Random Oversampling  | 0.65473  | 0.01 | 0.72 |
+| SMOTE Oversampling  | 0.66201  | 0.01 | 0.63 |
+| Cluster Centroids Undersampling | 0.54473 | 0.01 | 0.69 |
+| SMOTEENN Combination | 0.66657 | 0.01 | 0.72 |
+| Random Forest C. | 0.99610 | 0.95 | 0.36 |
+| Easy Ensemble C. | 0.99610 | 0.95 | 0.36 |
+
+
 ## Summary:
 
 There is a summary of the results (2 pt)
